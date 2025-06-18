@@ -142,9 +142,17 @@ function mostrarImagens(urls) {
 function abrirEmTelaCheia(url) {
   const overlay = document.createElement('div');
   overlay.style.cssText = `
-    position:fixed;top:0;left:0;width:100vw;height:100vh;
-    background:rgba(0,0,0,0.9);display:flex;align-items:center;
-    justify-content:center;z-index:9999;`;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 10px;
+  box-sizing: border-box;
+`;
+
 
   const img = document.createElement('img');
   img.src = url;
