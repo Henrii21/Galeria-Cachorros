@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeria de Cachorros</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="topo">
+  <div class="logo">
+    <h1>🐶 Galeria de Cachorros</h1>
+  </div>
+  <div class="acoes-header">
+    <button id="modoBtn" onclick="alternarModo()">🌙 Modo Escuro</button>
+  </div>
+</header>
+    <main>
+      <div class="form">
+        <label for="breedSelect"><strong>Escolha uma raça:</strong></label>
+        <select id="breedSelect">
+          <option>Carregando raças...</option>
+        </select>
+
+        <div id="subRacaContainer" class="hidden">
+          <label for="subBreedSelect">Sub-raça:</label>
+          <select id="subBreedSelect"></select>
+        </div>
+
+        <button onclick="carregarPorRaca()">Ver cachorro dessa raça</button>
+      </div>
+
+      <h2 id="breedName">Raça:</h2>
+
+      <button onclick="carregarCachorro()">Ver cachorro aleatório</button>
+
+      <div id="spinner" class="hidden">Carregando...</div>
+      <div id="galeria" class="galeria" data-favoritos="false"></div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
