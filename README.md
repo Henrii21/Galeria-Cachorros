@@ -1,6 +1,12 @@
 # 🐶 Galeria de Cachorros
 
-Este projeto é o trabalho final da disciplina **Programação Web 1**, feito com **HTML, CSS e JavaScript puro**, consumindo dados da [Dog API](https://dog.ceo/dog-api/).
+## 👨‍💻 Desenvolvido por
+
+- Victor  
+- Kevin  
+- Antonio
+
+Este projeto é o trabalho final da disciplina **Programação Web 1**, feito com **HTML, CSS e JavaScript**, consumindo dados da [Dog API](https://dog.ceo/dog-api/).
 
 O site exibe uma galeria de imagens de cachorros por raça e sub-raça, com opção de favoritar, visualizar em tela cheia e alternar entre temas claro e escuro.
 
@@ -30,8 +36,6 @@ O site exibe uma galeria de imagens de cachorros por raça e sub-raça, com opç
 
 ---
 
-## 💾 Como executar localmente
+## 🌐 Deploy
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Henrii21/Galeria-Cachorros.git
+🔗 **https://henrii21.github.io/Galeria-Cachorros/**
